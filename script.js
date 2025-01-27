@@ -28,7 +28,7 @@ function start(event = NaN) {
   asked = 1;
   setTimeout(function() {
     prompt('Pasahitza', (response) => {
-      if (response.toLowerCase() === 'ejemplo') {
+      if (response.toLowerCase() === 'posdata') {
         document.querySelector('div:has(img)').remove();
         document.querySelector('video').play();
       }
